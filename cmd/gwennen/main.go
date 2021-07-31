@@ -1,6 +1,6 @@
 package main
 
-import "internal/helloworld"
+import "gwennen/internal/helloworld"
 
 func main() {
 	helloworld.Do()
