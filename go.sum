@@ -1,0 +1,6 @@
+golang.design/x/clipboard v0.4.6 h1:a7rj6UuhIMHXXNxh7Nmx82jYqM2EE15SvmktGzHGUHs=
+golang.design/x/clipboard v0.4.6/go.mod h1:QetBbCbWomvi8bX+buWaqILoiT4osRNU6T1Bsn4qbEY=
+golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c h1:F1jZWGFhYfh0Ci55sIpILtKKK8p3i2/krTr0H1rg74I=
+golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+tawesoft.co.uk/go/dialog v0.0.0-20201103210221-4175697d086f h1:9LAzHynM3Jq3FZxP6rhoK3l96fSN+S47KABTOzE6gf4=
+tawesoft.co.uk/go/dialog v0.0.0-20201103210221-4175697d086f/go.mod h1:h1pWmQQT/jWrxa6VT3M7lFUif/2F0+WVISAi447Punc=
