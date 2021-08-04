@@ -3,7 +3,7 @@ module gwennen
 go 1.16
 
 require (
+	github.com/gen2brain/dlgs v0.0.0-20210609125024-bf6c92aaa984
+	github.com/gopherjs/gopherjs v0.0.0-20210803090616-8f023c250c89 // indirect
 	golang.design/x/clipboard v0.4.6
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
-	tawesoft.co.uk/go/dialog v0.0.0-20201103210221-4175697d086f
 )

@@ -2,7 +2,7 @@ package main
 
 import ("context"
 	"golang.design/x/clipboard"
-	"tawesoft.co.uk/go/dialog"
+	"github.com/gen2brain/dlgs"
 	"strings"
 )
 
@@ -18,9 +18,10 @@ func main() {
 		
 		for _, entity := range entities {
 			if links, ok := items[strings.TrimSpace(entity)]; ok {
-				println(entity)
-				println()
-				dialog.Alert(implode(links))
+				_, err := dlgs.Info("Info", implode(links))
+				if err != nil {
+					panic(err)
+				}
 				resetClipboard()
 			}
 		}
@@ -32,7 +33,8 @@ func implode(links []string) string {
 	var sb strings.Builder
 
 	for _, link := range links {
-		sb.WriteString(link + "\n")
+		println(link)
+		sb.WriteString(link + "\n\n")
 	}
 	
 	return sb.String()
